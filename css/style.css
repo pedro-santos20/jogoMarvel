@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+
+.header {
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+
+}
+
+.logoImagem {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.containerLogo {
+    display: flex;
+    align-items: center;
+}
+
+.logoTitulo {
+    margin-left: 20px;
+    color: #ffff00;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 10px;
+
+}
+
+.menu li a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #ffff00;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.menu li a:hover {
+    background-color: #f00;
+    color: #fff;
+}
+
+.logoTitulo:hover {
+    background-color: #f00;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.fotoHeader {
+    width: 100%;
+    margin-top: 30%;
+}
+
+/* main */
+
+.container {
+    width: 98%;
+    margin: 50px auto;
+}
+
+.heading {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+
+}
+
+.card {
+    width: 28%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    transition: 0.3s;
+}
+
+.cardHeader {
+    text-align: center;
+    padding: 50px 10px;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    color: #fff;
+}
+
+.cardBody {
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.cardBody .btn {
+    display: block;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 10px 5px;
+}
+
+.card:Hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/* footer */
+
+footer {
+    background-color: #000;
+    padding-top: 5em;
+    padding-bottom: 40px;
+    border-top: 5px solid #ffff00;
+}
+
+footer h2, footer p, footer a, footer span {
+    color: #fff;
+}
+
+footer h2 {
+    font-weight: 400;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+}
+
+.footerBox {
+    width: 31%;
+    padding: 1%;
+    float: left;
+}
+
+footer .wrapper:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.companyFooter {
+    width: 80%;
+}
+
+.companyFooter h2 {
+    margin-top: 20px;
+}
+
+.companyFooter img {
+    width: 200px;
+}
+
+.companyFooter h2, .companyFooter p {
+    margin-bottom: 20px;
+}
+
+.footerList li {
+    margin-bottom: 15px;
+}
+
+.footerList a {
+    transition: 0.5s;
+}
+
+.footerList a:hover {
+    color: #ffff00;
+}
+
+.footerList li:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.articleFooter {
+    width: 80%;
+}
+
+.footerList.articleFooterList span {
+    display: block;
+    float: none;
+}
+
+.fab {
+    font-size: 30px;
+    margin-right: 10px;
+    float: left;
+}
+
+.footerList li span {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+
+.footerBottom {
+    border-top: 1px solid #f1de32;
+}
+
+.footerBottom p {
+    font-weight: 600;
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 1000px) {
+    .card {
+        width: 40%;
+    }
+    
+}
+
+@media screen and (max-width: 620px) {
+    .container {
+        width: 100%;
+    }
+
+    .heading {
+        padding: 20px;
+        font-size: 20px;
+    }
+    
+    .card {
+        width: 80%;
+    }
+    
+}
