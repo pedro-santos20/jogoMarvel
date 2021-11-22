@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
 /* header */
@@ -22,11 +23,13 @@
     height: 100px;
     background-color: #fff;
     border-radius: 50px;
+    margin-right: 500px;
 }
 
 .containerLogo {
     display: flex;
     align-items: center;
+
 }
 
 .logoTitulo {
@@ -36,23 +39,6 @@
     border-radius: 10px;
     text-transform: uppercase;
     transition: 0.5s;
-}
-
-.menu li {
-    display: inline-block;
-    margin: 0 10px;
-    font-size: 24px;
-    text-decoration: none;
-    color: #ffff00;
-    text-transform: uppercase;
-    padding: 10px 15px;
-    border-radius: 10px;
-    transition: 0.5s;
-}
-
-.menu li:hover {
-    background-color: #f00;
-    color: #fff;
 }
 
 .logoTitulo:hover {
@@ -99,7 +85,7 @@
 .cardHeader {
     text-align: center;
     padding: 50px 10px;
-    color: #f00;
+    color: #fff;
     background-image: url("../imagens/fundoVisao2.jpg");
     background-size: cover;
 }
@@ -107,7 +93,7 @@
 .cardHeader2 {
     text-align: center;
     padding: 50px 10px;
-    color: #000;
+    color: #fff;
     background-image: url("../imagens/fundoEstranho2.jpg");
     background-size: cover;
 }
@@ -116,7 +102,7 @@
     text-align: center;
     padding: 50px 10px;
     color: #000;
-    background-image: url("../imagens/fundoThor.jpg");
+    background-image: url("../imagens/imagemPrincipalThor.jpg");
     background-size: cover;
 }
 
@@ -125,12 +111,20 @@
     text-align: center;
     font-size: 18px;
     display: block;
-    color: #00f000;
+    color: #fff;
     text-align: center;
     border-top: 1px solid #ffff00;
-    text-decoration: none;
-    background-image: url("../imagens/fundoVisao.jpg");
+    background-image: url("../imagens/imagemVisaoPrincipal.jpg");
     background-size: cover;
+}
+
+.cardBody .btn {
+    display: block;
+    color: #d10909;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 5px;
+    border: #ddd double 5px;
 }
 
 .cardBody2 {
@@ -141,9 +135,17 @@
     color: #fff;
     text-align: center;
     border-top: 1px solid #ffff00;
-    text-decoration: none;
     background-image: url("../imagens/fundoEstranho.jpg");
     background-size: cover;
+}
+
+.cardBody2 .btn {
+    display: block;
+    color: #ffd700;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 5px;
+    border: #e9c244 double 5px;
 }
 
 .cardBody3 {
@@ -154,9 +156,17 @@
     color: #fff;
     text-align: center;
     border-top: 1px solid #ffff00;
-    text-decoration: none;
-    background-image: url("../imagens/imagemPrincipalThor.jpg");
+    background-image: url("../imagens/fundoNovoThor.jpg");
     background-size: cover;
+}
+
+.cardBody3 .btn {
+    display: block;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 5px;
+    border: #2f75f7 double 5px;
 }
 
 .card:Hover {
@@ -175,7 +185,10 @@ footer {
     border-top: 5px solid #ffff00;
 }
 
-footer h2, footer p, footer a, footer span {
+footer h2,
+footer p,
+footer a,
+footer span {
     color: #fff;
 }
 
@@ -219,7 +232,8 @@ footer .wrapper:after {
     width: 200px;
 }
 
-.companyFooter h2, .companyFooter p {
+.companyFooter h2,
+.companyFooter p {
     margin-bottom: 20px;
 }
 
@@ -279,7 +293,7 @@ footer .wrapper:after {
     .card {
         width: 40%;
     }
-    
+
 }
 
 @media screen and (max-width: 620px) {
@@ -291,9 +305,9 @@ footer .wrapper:after {
         padding: 20px;
         font-size: 20px;
     }
-    
+
     .card {
         width: 80%;
     }
-    
+
 }
