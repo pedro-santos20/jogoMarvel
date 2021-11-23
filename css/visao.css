@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../imagens/fundoVisao.jpg");
+    background-size: cover;
+}
+/* header */
+
+.tituloPrincipal {
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    color: #ff0000;
+}
+
+
+/* main */
+
+.textoDecisao {
+    text-align: center;
+    font-size: 20px;
+    color: #ff0000;
+}
+.escolhas {
+    padding: 20px;
+    border: aqua 2px solid;
+}
+
+.resposta {
+    position: relative;
+}
+
+.btnResposta {
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: blueviolet;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* footer */
