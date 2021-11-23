@@ -22,13 +22,12 @@
     height: 100px;
     background-color: #fff;
     border-radius: 50px;
-    margin-right: 500px;
+    margin-right: 50px;
 }
 
 .containerLogo {
     display: flex;
     align-items: center;
-
 }
 
 .logoTitulo {
