@@ -6,7 +6,7 @@ function responda() {
             window.location.href = "../html/gameOver.html"
             break
         } else if (resposta == 2) {
-            window.location.href = "../html/visao3.html"
+            window.location.href = "../html/vencedor.html"
             break
         } else {
             alert("Escolha somente entre as opções abaixo!")
