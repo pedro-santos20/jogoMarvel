@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+html {
+    background-image: url("../imagens/vencedorEstranho.jpg");
+    background-size: cover;
+}
+
+/* header */
+
+.tituloParabens {
+    margin-top: 60px;
+    margin-bottom: 90px;
+    color: #ec6c16;
+}
+
+/* main */
+
+.textoPrincipal {
+    background-color: #ffffff98;
+    color: #ec6c16;
+    margin-bottom: 70px;
+    font-size: 20px;
+}
+
+.botaoReiniciar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background-color: #f00;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/* footer */
+
+.textoFinal {
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    margin-top: 15%;
+}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+html {
+    background-image: url("../imagens/morteEstranho.jpg");
+    background-size: cover;
+}
+
+/* header */
+
+.tituloPerdeu {
+    margin-top: 3%;
+    margin-bottom: 10%;
+    color: #f00;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px;
+}
+
+.tituloPerdeu:hover {
+    background-color: #a8a4a4;
+}
+
+/* main */
+
+.textoPrincipal {
+    background-color: #ffffff98;
+    color: #f00;
+    margin-bottom: 20%;
+    font-size: 20px;
+}
+
+.botaoReiniciar {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background-color: #f00;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
