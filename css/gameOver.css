@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+html {
+    background-image: url("../imagens/visaoMorte.png");
+    background-size: cover;
+}
+
+/* header */
+
+.tituloPerdeu {
+    margin-top: 60px;
+    margin-bottom: 10%;
+    color: #f00;
+}
+
+/* main */
+
+.textoPrincipal {
+    background-color: #ffffff98;
+    color: #f00;
+    margin-bottom: 20%;
+    font-size: 20px;
+}
+
+.botaoReiniciar {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background-color: #f00;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
