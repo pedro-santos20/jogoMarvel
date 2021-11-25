@@ -286,7 +286,7 @@ footer .wrapper:after {
     text-align: center;
 }
 
-/* responsive main */
+/* responsive */
 
 @media screen and (max-width: 1000px) {
     .card {
@@ -296,7 +296,20 @@ footer .wrapper:after {
 }
 
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 750px) {
+    .header {
+        width: 100%;
+    }
+
+    .logoImagem {
+        background: none;
+        image-rendering: auto;
+    }
+
+    .logoTitulo {
+        width: 100%;
+    }
+    
     .container {
         width: 100%;
     }
@@ -308,6 +321,10 @@ footer .wrapper:after {
 
     .card {
         width: 80%;
+    }
+
+    .footerBox {
+        width: 100%;
     }
 
 }

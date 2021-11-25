@@ -88,3 +88,32 @@ main {
 }
 
 /* responsive */
+
+@media screen and (max-width: 1000px) {
+    .principal {
+        width: 40%;
+    }
+
+}
+
+
+@media screen and (max-width: 750px) {
+    
+    .principal {
+        width: 100%;
+    }
+
+    .tituloPrincipal {
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .pergunta {
+        width: 80%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+}
